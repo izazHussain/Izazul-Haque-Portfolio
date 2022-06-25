@@ -46,7 +46,7 @@ main{
     overflow: hidden;
     box-shadow: 0 0 1rem rgba(1, 1, 255, 0.588) ;
     min-width: 20rem;
-    height: 35rem;
+    height: fit-content;
 
     &-img{
        width: 100%;
