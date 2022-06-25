@@ -56,9 +56,7 @@ main {
   -webkit-box-shadow: 0 0 1rem rgba(1, 1, 255, 0.588);
           box-shadow: 0 0 1rem rgba(1, 1, 255, 0.588);
   min-width: 20rem;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
+  height: 38rem;
 }
 
 .project-card-img {
