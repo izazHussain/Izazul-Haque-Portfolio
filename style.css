@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    padding: 0 10%;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(3, 3, 44);
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: left;
+    padding: 2rem;
+    padding-bottom: 5rem;
+    padding-left: 0;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.profile-header{
+    display: flex;
+    align-items: center;
+    gap: 15rem;
+    
+}
+
+img.profile-photo{
+    width: 15rem;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    object-fit: contain;
+    background-position-y: 10rem;
+
+}
+
+main{
+    display: flex;
+    padding: 2rem;
+}
+
+.profile-intro{
+    padding-left: 17rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.profile-cta a{
+    padding: 1rem 2rem;
+    white-space: nowrap;
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: rgb(7, 7, 63);;
+    border-radius: 2rem;
+    border-style: none;
+    background-color: rgb(121, 240, 10);
+    box-shadow: 0 0 1rem rgba(255, 255, 255, 0.489);
+  
+}
+
+.profile-info{
+    font-weight: 800;
+    font-size: 2rem;  
+}
+
+.profile-cta{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.profile-links{
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  font-size: 2rem;
+  color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.profile-name{
+    font-size: 5rem;
+}
+.profile-job{
+    font-size: 2.5rem;
+    color: rgb(174, 174, 228);
+}
+
+.profile-footer{
+   
+}

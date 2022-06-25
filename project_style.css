@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #03032c;
+  color: white;
+  padding: 0 10%;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1rem;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 5rem;
+}
+
+a {
+  color: white;
+}
+
+ul.nav li {
+  display: inline-block;
+  padding-left: 3rem;
+  list-style: none;
+}
+
+main {
+  display: -ms-grid;
+  display: grid;
+  gap: 6rem;
+  width: 100%;
+  min-height: 100vh;
+  -ms-grid-columns: (minmax(16rem, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+}
+
+.project-card {
+  background: transparent;
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
+  border-radius: 1rem;
+  overflow: hidden;
+  -webkit-box-shadow: 0 0 1rem rgba(1, 1, 255, 0.588);
+          box-shadow: 0 0 1rem rgba(1, 1, 255, 0.588);
+  min-width: 20rem;
+  height: 35rem;
+}
+
+.project-card-img {
+  width: 100%;
+  height: 40%;
+}
+
+.project-card-bottom {
+  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.project-card-bottom ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: .5rem;
+}
+
+.project-card-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.project-card-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+}
+
+.project-card a {
+  font-size: 1rem;
+  background-color: #79f00a;
+  -webkit-box-shadow: 0 0 1rem rgba(255, 255, 255, 0.489);
+          box-shadow: 0 0 1rem rgba(255, 255, 255, 0.489);
+  border-radius: .5rem;
+  padding: .6rem .8rem;
+  border-style: none;
+  color: #03032c;
+  cursor: pointer;
+}
+/*# sourceMappingURL=project_style.css.map */
