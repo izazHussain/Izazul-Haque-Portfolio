@@ -65,7 +65,7 @@ main {
 }
 
 .project-card-bottom {
-  padding: 2rem;
+  padding: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
